@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2EA5F50C-C427-EA78-2382-B4C48135A193" name="BBM Enfermedad Diagnosticada">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>7E519B87-D2E9-C0D9-3DE6-0F06F7DE38EC</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre Enfermedad" id="6C260B27-4D6D-7009-0434-64D48D4B0E17">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>1862CA35-57BB-CD67-00A4-977A1679EFCC</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre Comun Enfermedad" id="2A40DEDA-C32B-F9DB-4AB7-4004574DE7B7">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>C5DC2C9F-6FC5-A4F8-3DAE-4F2D7D4ACB09</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="7A2C6DB8-875D-EA8E-6C50-346FBE5963BA">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>849B4AFC-0979-365C-EF7C-DD66ACBBD33E</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sintomas" id="12D5E1DD-1F1E-7906-D150-16FF5760A160">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>FBD39271-98CF-12F4-EF28-5D6B6B08E0A8</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D2ED050-62E4-88F5-569E-6E53BAEE0F3F" name="BBM Enfermedad Diagnosticada PK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>F662BCFC-FA8C-9B2B-DA79-1198C0A28410</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C260B27-4D6D-7009-0434-64D48D4B0E17</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

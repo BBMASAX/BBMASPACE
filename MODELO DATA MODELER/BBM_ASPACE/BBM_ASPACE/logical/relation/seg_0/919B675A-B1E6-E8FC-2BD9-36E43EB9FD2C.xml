@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BBM Comida Paciente" directorySegmentName="seg_0" id="919B675A-B1E6-E8FC-2BD9-36E43EB9FD2C">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 17:56:42 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>96AE8726-A94D-A423-1AAB-0C2F8E1EFCFE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B336D82F-BF20-1C01-009D-0DD26182E801</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Plato 1" id="0C0EF9D3-61D5-C657-F9F4-792547348737">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 17:57:07 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Plato 2" id="03B47C0B-B20C-4E3C-FDFA-499F0D396E7F">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 17:57:30 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Plato 3" id="F51AC8E6-55D9-3724-7740-ECC1F2417936">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 17:57:35 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Contraindicaciones" id="E86CDE43-42CF-DC65-5D36-1748DE9F0839">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 17:57:43 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

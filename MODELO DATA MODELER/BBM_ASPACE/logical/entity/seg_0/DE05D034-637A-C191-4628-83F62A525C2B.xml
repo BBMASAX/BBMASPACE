@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE05D034-637A-C191-4628-83F62A525C2B" name="BBM_Expediente">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:14:23 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Expediente" id="6261EAE7-B97E-77DA-B481-6E66B7BADF7C">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:15:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Compuesto por EXP + Apellido + Apellido + Nombre Usuario + Numeracion
+Ejemplo: EXPBBM0001]]></commentInRDBMS>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BAC8A057-FA8C-5E85-3C49-B976EE2D1F90" name="BBM_Expediente PK">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:16:01 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6261EAE7-B97E-77DA-B481-6E66B7BADF7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

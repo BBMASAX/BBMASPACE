@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="712913B8-A1DC-016D-CE2F-F1681F358C17" name="BBM_Comida_Paciente">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BBM_Comidas_ID_Menu" id="D2A9E3FD-7C0A-7814-8BC7-3F92314E2E4A">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD2724CC-906D-7A72-4398-51451080A531" referredColumn="59293612-AA9A-3F5A-A802-97FA8C6D877E"/>
+</associations>
+</Column>
+<Column name="BBM_Expediente_ID_Expediente" id="F14FBFB0-9631-0975-4D79-90898DF5F444">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9ADC81DB-EE95-5697-A31B-8F8472EBE5EA" referredColumn="686CB36B-2213-4764-8838-9963513B415D"/>
+</associations>
+</Column>
+<Column name="Plato_1" id="1E6D3066-AF95-1B0E-B230-6B387B866825">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>0C0EF9D3-61D5-C657-F9F4-792547348737</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="Plato_2" id="DB6C27B3-A2C8-5369-2B1A-7082CC66FB2B">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>03B47C0B-B20C-4E3C-FDFA-499F0D396E7F</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="Plato_3" id="8A7F1B41-6E8C-D1EA-FFBF-265C14B328BE">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>F51AC8E6-55D9-3724-7740-ECC1F2417936</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="Contraindicaciones" id="C2126000-4DF9-46B9-31EC-D91D46DC4258">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>E86CDE43-42CF-DC65-5D36-1748DE9F0839</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A074D315-3E32-B5B4-45BF-26288524260B" name="BBM_Comida_Paciente_PK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2A9E3FD-7C0A-7814-8BC7-3F92314E2E4A"/>
+<colUsage columnID="F14FBFB0-9631-0975-4D79-90898DF5F444"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="336B841D-6177-3F1A-8514-68D59D152A37" name="BBM_Comida_Paciente_BBM_Comidas_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>919B675A-B1E6-E8FC-2BD9-36E43EB9FD2C</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2A9E3FD-7C0A-7814-8BC7-3F92314E2E4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4F4B426-F595-46D9-0DD7-EBDE15088700" name="BBM_Comida_Paciente_BBM_Expediente_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>919B675A-B1E6-E8FC-2BD9-36E43EB9FD2C</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F14FBFB0-9631-0975-4D79-90898DF5F444"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

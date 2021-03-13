@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9BF5ABDE-E3A3-E206-58B8-E0E94013F7EE" containerWithKeyObject="F0420C88-3BFC-7A09-0714-D10AFF2FCB6F" localFKIndex="7A993F09-04DC-64E7-311F-BA046DC33124" name="BBM_Estimulacion_Electrica_BBM_Otras_Terapias_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>34A118D3-F096-186A-3A43-CBE578AC4563</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<referredTableLongName>BBM_Otras_Terapias</referredTableLongName>
+<arc>5D33A3E5-4F9F-0100-75FB-47F21BF5AEC1</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6FBC6EEC-1B02-77FE-7880-07A946F8D41B</referredTableID>
+<keyObject>D0F26AD6-FA47-B9B1-E112-0B7151A558B6</keyObject>
+<referredKeyID>D0F26AD6-FA47-B9B1-E112-0B7151A558B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BBM_Tratamientos_BBM_Tratamientos_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

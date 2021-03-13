@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9702812-45B5-E376-DC2B-2C64A1284C89" name="BBM_Oxigencion_Hiperbarica">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>7950364E-E140-7C5C-E9C9-EF48AE5C1246</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BBM_Otras_Terapias_BBM_Tratamientos_BBM_Tratamientos_ID" id="B5621BFC-9054-7185-B20E-BFAD74461238">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33289AD2-2DBE-D321-19B3-1CC22E80110F" referredColumn="F08419E0-4A74-9CA6-F67E-60AFF1DE2305"/>
+</associations>
+</Column>
+<Column name="Descripcion" id="4FE69861-9E4A-3D6C-3BC0-DD9BE6D6BB58">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>238EC438-E634-596C-8CA1-FE7EEF302967</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1AE4F2E-471A-7B7C-F139-8C8AF919B808" name="BBM_Oxigencion_Hiperbarica_PK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B5621BFC-9054-7185-B20E-BFAD74461238"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DAEA6C3-8CD9-648A-97F3-2685D7F01FC9" name="BBM_Oxigencion_Hiperbarica_BBM_Otras_Terapias_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>5BA53685-6E59-9AAE-72F0-6DA7D2DAC2A7</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5621BFC-9054-7185-B20E-BFAD74461238"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

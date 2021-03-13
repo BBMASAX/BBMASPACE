@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A93B377-326C-D4A2-708C-54EFF4998BB5" name="BBM Empleado">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>575AC0F6-2EC1-2607-983D-197B743E71AA</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Empleado ID" id="79D53727-FAA7-2206-7B2D-36A17C5B44B4">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Iniciales + 3 ultimos digitos DNI]]></commentInRDBMS>
+<generatorID>24BF59AE-AA10-B4F7-63EC-3DAB62A400D3</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre 1" id="993E373B-80AF-BDC3-809C-1B7549F87C28">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>9CED84CD-FF11-B9B4-9F50-C05EE46F014B</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre 2" id="EC1A169F-5EC4-93EA-0672-7687CC8E7A47">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>75960751-F8B1-02F5-2EE0-FF20F12B78A6</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apeliido 1" id="D0DCB079-13EE-C5DA-B326-E6F59092849B">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>F42F6597-846F-D26B-B5DE-D9F1A8193A3F</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apeliido 2" id="2F8939A9-64E9-C963-C496-C53A44DD7B29">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>D5C89F0C-CD76-0D6E-DAEF-1A42098145C8</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="452CD83A-FAEE-F516-3E08-389006CD9D90">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>AA717DC7-B1AA-C68D-8808-2C3815FD8A6C</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="95562C23-C3AB-5C8F-578A-82B939B0D254">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>187074AF-85F7-8EB8-895D-0C2FD11BB451</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="1CD3321B-9688-584E-17E1-9D30B65FD39A">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>0214B98D-7E00-3C2A-4517-E3910468F986</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

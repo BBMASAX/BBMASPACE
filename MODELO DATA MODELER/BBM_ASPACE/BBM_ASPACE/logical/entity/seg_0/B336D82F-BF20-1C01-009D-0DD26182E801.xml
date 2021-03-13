@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B336D82F-BF20-1C01-009D-0DD26182E801" name="BBM Expediente">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>9C16CB9E-2DCA-6D31-0F11-9DF81E3D3144</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Expediente" id="5D616A26-716C-DAF4-C1D8-1F608A0E07CB">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Compuesto por EXP + Apellido + Apellido + Nombre Usuario + Numeracion
+Ejemplo: EXPBBM0001]]></commentInRDBMS>
+<generatorID>7B955DD5-87D3-03A4-36B6-FDE0890709AD</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre Enfermedad" id="009A31F1-3D43-7C27-2A1C-D5571BAC22FA">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 17:58:31 UTC</createdTime>
+<generatorID>9FA55E8D-2721-E081-BD38-FE26EED720A3</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<referedAttribute>6C260B27-4D6D-7009-0434-64D48D4B0E17</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Usuario ID" id="F374D2D8-65A3-B4B5-E2D7-504FB5F411BF">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 17:58:49 UTC</createdTime>
+<generatorID>A6ABD2AC-005A-E643-4CA4-C7CAF09ED02C</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<referedAttribute>291399DA-A07B-DB6D-D528-AA5F7245A53D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sesion ID" id="ECC1006C-ECE4-CAED-1A0A-A58CB9248DFB">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 17:59:03 UTC</createdTime>
+<generatorID>B3ED5295-30B0-96D3-586F-8E3F6200B17D</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<referedAttribute>30BCDC22-119F-3A68-275F-7A1836242940</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BDBA70A2-4268-14B6-3559-76A8A93BA604" name="BBM Expediente PK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>493C2DA1-F5F8-37A8-0E2B-CAF2A6E242C9</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D616A26-716C-DAF4-C1D8-1F608A0E07CB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28E39553-6938-AE2F-EB0E-71DB88375FCF" name="BBM_Contacto_Paciente">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BBM_Tutor_Tutor_ID" id="8CD83AC3-9B6E-AC95-F979-99A5BF538E4F">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74D3B144-E9CE-8AD2-268D-5D4DC790DBD1" referredColumn="109B5DC0-6E8B-C2BB-A017-43EF3B0CAC0E"/>
+</associations>
+</Column>
+<Column name="BBM_Usuario_Usuario_ID" id="3D704224-5DED-C98F-1374-BDFDFF9C7FF2">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="678756AB-B2C7-64FF-6198-E4EEA9C61B90" referredColumn="4EAA600C-00AB-82B1-5145-1271AA6ECCCD"/>
+</associations>
+</Column>
+<Column name="Contacto" id="7CEC6DB4-657F-4F47-DEA6-7CE35BA82B76">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>EEC9BE18-D147-4DD9-AEA7-2C7AF5DFE90A</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="Email" id="D0C3F7C4-6796-C64A-662C-5F052C619189">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>1792AA8C-B226-447A-9255-22A08945E5E8</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="Direciion" id="DBE6CE4B-0688-61B7-7A5D-072145BC3AA0">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>30F2F38F-B8FF-1873-98AC-7F54F5E450A4</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="Otros_Detalles" id="C390CB9D-7439-A6AD-FAE3-525668EE8D86">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>71A22E31-4341-A112-48B5-E7C510521796</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5ADD5BAD-60FA-CAED-BF56-DD3F63607D8D" name="BBM_Contacto_Paciente_PK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CD83AC3-9B6E-AC95-F979-99A5BF538E4F"/>
+<colUsage columnID="3D704224-5DED-C98F-1374-BDFDFF9C7FF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DB41060-F257-7882-3CC6-03DD9F62D5C5" name="BBM_Contacto_Paciente_BBM_Tutor_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>F9D96A2E-B2BC-1A43-63EC-31648705671B</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CD83AC3-9B6E-AC95-F979-99A5BF538E4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96EF988C-8564-87EF-A6E5-06868FA1040F" name="BBM_Contacto_Paciente_BBM_Usuario_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>F9D96A2E-B2BC-1A43-63EC-31648705671B</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D704224-5DED-C98F-1374-BDFDFF9C7FF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC5982F8-851B-126E-6F31-FB2B2E42F6EC" name="BBM_Factura">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<generatorID>5994FC0C-FE30-924B-D973-A936F01CEF12</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

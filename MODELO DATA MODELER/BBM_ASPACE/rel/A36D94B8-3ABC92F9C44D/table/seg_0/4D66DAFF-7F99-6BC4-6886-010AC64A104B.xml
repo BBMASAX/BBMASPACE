@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D66DAFF-7F99-6BC4-6886-010AC64A104B" name="Contacto_Paciente">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BBM_Tutor_Tutor_ID" id="F1CBABEE-5A79-1123-60F0-BE983AC06C3C">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="392B8641-FE52-9B53-3A89-B5AC282705EA" referredColumn="1D1A9B01-E3DC-8315-E8EC-FF5A3BA8F67A"/>
+</associations>
+</Column>
+<Column name="BBM_Usuario_Usuario_ID" id="7DBE2E88-B512-F6E3-991F-F3BEAC8F4E50">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A1259E6-38B8-21C7-8E7C-D814061CBED5" referredColumn="181F0F3F-CFE5-871D-FF6D-53FB261CF6D8"/>
+</associations>
+</Column>
+<Column name="Contacto" id="42C969AA-01FF-0B8D-F675-C247B9BEEA81">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<generatorID>8B6769D1-4E54-CBD2-EC1D-2EF351059005</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Email" id="8F844B15-9D48-9F21-FAB8-472C2F65B515">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<generatorID>020262F1-56B5-B2DB-1999-D3F0E99ABA96</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Direccion" id="179BCA5E-7A8D-EBD9-CD58-FCFD29B89C48">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<generatorID>DF1028C7-F591-6A22-70D2-C3BB1017CE1A</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Otros_Detalles" id="469B8869-BCB6-600C-BEE9-E236EA965A71">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<comment><![CDATA[Por si hay que hacer algún comentario sobre los detalles]]></comment>
+<generatorID>58AFC3E2-23DC-C6FE-9BCA-A862539F37D7</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="080142CC-3751-D0EB-8EA4-6BB6C37DE27D" name="Contacto_Paciente_PK">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1CBABEE-5A79-1123-60F0-BE983AC06C3C"/>
+<colUsage columnID="7DBE2E88-B512-F6E3-991F-F3BEAC8F4E50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3EC0B16-9680-1A9E-5AA1-111729BA0240" name="Contacto_Paciente_BBM_Tutor_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<generatorID>99203A96-2888-472D-A280-C5C03FD8DC77</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1CBABEE-5A79-1123-60F0-BE983AC06C3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF2CFFA4-3ADF-8393-9DC4-23FE4488ABD9" name="Contacto_Paciente_BBM_Usuario_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<generatorID>99203A96-2888-472D-A280-C5C03FD8DC77</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DBE2E88-B512-F6E3-991F-F3BEAC8F4E50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

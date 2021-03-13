@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="908266B3-583C-C6E0-672B-20FE52EB2328" name="BBM_Sesion">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>25D0D924-56F9-EB14-E92B-80E44185081B</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sesion_ID" id="47EA5157-3A12-7D48-F64C-71E93BA23C6F">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sesion + ddmmaa + orden 
+
+ejemplo  SES07122020010]]></commentInRDBMS>
+<generatorID>30BCDC22-119F-3A68-275F-7A1836242940</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_y_Hora_de_inicio" id="56621C80-EB19-E473-A498-7EC1851C4D1D">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>7B3B3D57-5F68-4FDF-3915-638C072BAB64</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_y_Hora_de_fin" id="230F5C8A-39DC-E055-207A-1A0666793A29">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>C8533C17-1DF8-FA24-A5B8-F49A6E021352</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BBM_Horario_ID_Horario" id="AF54B312-537A-BEB7-D47F-DE54F7E400F4">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>35E463D1-580A-750E-395F-4CD8D912F1D0</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6D2AEBE-9D4F-A25D-933C-416ADBBCE124" referredColumn="7A661004-554F-5A43-FA16-AAAD996A6516"/>
+</associations>
+</Column>
+<Column name="BBM_Espacio_ID_Espacio" id="93CCA99B-5063-2D8B-1EF3-818838EC73B6">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>CF7861BF-399D-AEA7-FEA1-EA5934BCCF97</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92F843DC-503F-0612-5B3F-2B011DC6D86B" referredColumn="74FDA27B-42DB-6832-5D74-58E09D1AF1EE"/>
+</associations>
+</Column>
+<Column name="BBM_Equipamiento_ID_Equipamiento" id="B3C986AA-2A5A-4FC9-46B4-B4175DFF78B3">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>62F2299C-BD1D-10A8-849B-E4357F12DAD3</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7B087B0-8178-F10D-F285-9A6F6D74CF51" referredColumn="D625A2A8-91E4-37A0-2B93-4F9C03A1535A"/>
+</associations>
+</Column>
+<Column name="BBM_Empleado_BBM_Empleado_ID" id="EEA5B971-728F-1EAB-8C47-13AED857AB24">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1679327B-37E6-D0CD-F0BA-382AB7C63AA9" referredColumn="4D328988-C6C2-EBA5-8C12-891BDFE79A30"/>
+</associations>
+</Column>
+<Column name="BBM_Actividades_BBM_Actividades_ID" id="B3655246-E0AB-A472-1802-B3D6B705706A">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5D0126D-AA61-AD50-61F4-0ADD4A58B34D" referredColumn="1D708FEF-ABB7-045B-80EF-B050001E49DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C888372-A332-D816-7633-87D6A2928017" name="BBM_Sesion_PK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>F64C12EE-970F-A6AB-C7D2-8E97597929A7</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47EA5157-3A12-7D48-F64C-71E93BA23C6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DA34093-B74C-D2EC-EBCA-6A37326093B3" name="BBM_Sesion_BBM_Horario_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>49525F5A-A17F-3C34-5CCA-C90DF53DFF42</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF54B312-537A-BEB7-D47F-DE54F7E400F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A496D91-CFE8-2CF6-D220-812BFD17D371" name="BBM_Sesion_BBM_Empleado_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>83B89C1A-0064-5FCA-FF1E-1E28992B007F</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEA5B971-728F-1EAB-8C47-13AED857AB24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="360EC60F-FAB7-6727-C3E9-7130858FB2A4" name="BBM_Sesion_BBM_Espacio_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>6885C521-95C4-C44F-D41A-0A6D1DAC6255</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93CCA99B-5063-2D8B-1EF3-818838EC73B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28090B62-E3A1-1B70-35D4-14B714AF1FCA" name="BBM_Sesion_BBM_Equipamiento_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>840F459E-DCE3-C6A3-0B08-66DB92BA5547</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3C986AA-2A5A-4FC9-46B4-B4175DFF78B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E01B928-711F-30D3-ADAB-E0385DC9BA72" name="BBM_Sesion_BBM_Actividades_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>E66F1815-5E0D-A9FC-09AD-76DA9F0CE326</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3655246-E0AB-A472-1802-B3D6B705706A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

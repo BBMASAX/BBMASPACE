@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9ADC81DB-EE95-5697-A31B-8F8472EBE5EA" containerWithKeyObject="712913B8-A1DC-016D-CE2F-F1681F358C17" localFKIndex="D4F4B426-F595-46D9-0DD7-EBDE15088700" name="BBM_Comida_Paciente_BBM_Expediente_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>919B675A-B1E6-E8FC-2BD9-36E43EB9FD2C</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<referredTableLongName>BBM_Expediente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E67758F4-9F29-B19A-FA9A-52207E98F5E9</referredTableID>
+<keyObject>53DAF247-9D07-F06C-AFFB-9013F52BFE2B</keyObject>
+<referredKeyID>53DAF247-9D07-F06C-AFFB-9013F52BFE2B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Expediente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

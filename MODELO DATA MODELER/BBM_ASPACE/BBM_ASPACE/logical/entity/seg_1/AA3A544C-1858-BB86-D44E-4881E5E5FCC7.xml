@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="AA3A544C-1858-BB86-D44E-4881E5E5FCC7" name="BBM Terapia Recreativa">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>C11D6815-DED2-6A3D-853A-88B81CAC20BD</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>F6ECAA99-53FF-D3BA-0CDB-D3630C2511E5</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TR ID" id="FC33D292-246B-A118-63D4-64488A1CE0D8">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>3894D58B-A7B6-46A9-813B-0AD3F1244A60</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="39B8AE18-24F1-3390-D855-FD32A78CD779">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>A3330F1A-73A0-1510-4A3E-332D127391ED</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUX ID" id="21536130-F13B-F11E-0359-AD7AC1EAFAB1">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:46 UTC</createdTime>
+<generatorID>F5CD0D40-B603-AD17-3494-1F9A4569EFE7</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="22FBB7C8-E61E-D7C0-C388-B9FA35C9CE32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

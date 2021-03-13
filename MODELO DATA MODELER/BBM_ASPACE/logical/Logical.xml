@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DD90A2C0-6249-54F4-B1F7-4FC8347EB042" mainViewID="C3548242-1671-16D2-0391-ED31E7F84254">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 16:53:24 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

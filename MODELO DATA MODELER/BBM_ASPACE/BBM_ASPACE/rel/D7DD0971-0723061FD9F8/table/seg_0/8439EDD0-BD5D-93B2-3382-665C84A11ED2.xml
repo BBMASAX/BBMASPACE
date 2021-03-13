@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8439EDD0-BD5D-93B2-3382-665C84A11ED2" name="BBM_Titulado">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>A2208791-A34F-EB5D-7481-2710EF7A775B</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BBM_Auxiliar_BBM_Empleado_BBM_Empleado_ID" id="4DD08C2C-2653-999A-4CB2-9255E119F463">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47DFB1EC-C0A0-7549-96D0-5D946A49B47A" referredColumn="2026A0D8-8428-51C2-A2B1-203CD0879164"/>
+</associations>
+</Column>
+<Column name="Descripcion_funciones" id="0BD80335-5877-AA5B-C13D-3D77121EB421">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>DD2232D1-98B0-2125-A759-584F16A0A6B9</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43563FA3-5F02-B279-1745-1C95DFB6EC23" name="BBM_Titulado_PK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4DD08C2C-2653-999A-4CB2-9255E119F463"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D36F56AB-E189-3588-F6CD-170B36AC64B0" name="BBM_Titulado_BBM_Auxiliar_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>D5DEC70B-7D30-AEE8-EC75-50DCF52FC3F9</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DD08C2C-2653-999A-4CB2-9255E119F463"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

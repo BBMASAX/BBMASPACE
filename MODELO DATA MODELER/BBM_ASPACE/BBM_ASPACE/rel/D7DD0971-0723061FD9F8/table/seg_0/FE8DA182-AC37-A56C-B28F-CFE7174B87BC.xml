@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE8DA182-AC37-A56C-B28F-CFE7174B87BC" name="BBM_Metodo_Doman">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>585EB24F-FCDF-EB0F-A2E1-E71B4EDD1FB4</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BBM_Otras_Terapias_BBM_Tratamientos_BBM_Tratamientos_ID" id="834C608B-0F47-5C1B-0454-20B6C0211FAA">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B324FB72-DF9D-F8B6-8848-1E078DFAC241" referredColumn="F08419E0-4A74-9CA6-F67E-60AFF1DE2305"/>
+</associations>
+</Column>
+<Column name="Descripcion" id="8AB130D2-785B-54EE-26CA-B468026362A9">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>140A4C9A-DAF1-7BC9-A217-0E8BBD2B120C</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E73C2943-F299-3E56-8936-37463F032899" name="BBM_Metodo_Doman_PK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="834C608B-0F47-5C1B-0454-20B6C0211FAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D53C764E-93A6-98ED-51AE-901AE8F6BC42" name="BBM_Metodo_Doman_BBM_Otras_Terapias_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>14A48CB6-1B2D-9255-FE88-6A72268845A9</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="834C608B-0F47-5C1B-0454-20B6C0211FAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

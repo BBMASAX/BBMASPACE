@@ -1,0 +1,362 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F650159-09D7-09E4-9597-EFAF35FBAA22" name="BBM_Horario_Fabricado">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>90ED6935-92BB-2958-33CF-71AE187942E6</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="00:00-01:00" id="5D502B57-270F-1FEA-49B6-25FE1BEFAF47">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>E7B8C31E-9220-8002-04F9-BD1BD00A75C6</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="01:00-02:00" id="8D0BF105-9E42-F3B9-13C9-1C79DA81CF7A">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>63D2F7FA-639D-96B3-7E41-38BF13E80328</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="02:00-03:00" id="3BE68231-0106-F1F4-5E8E-DED30A4A9752">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>4D725DC1-8343-916B-F279-4157FCFBEA9B</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="03:00-04:00" id="4FC23D37-803C-31EB-0D94-A67F004848A7">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>03B2DD24-880E-F79B-29A8-CF064807E78C</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="04:00-05:00" id="4EC3FD9D-71EF-F6DF-ADB9-FEC7F31BEE96">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>D41E2156-6492-09BE-78E4-3B8869A33955</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="05:00-06:00" id="D9C4E12B-76D5-2302-9248-ED30F3F1502A">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>A775BE5B-D12B-8BC7-5B31-91F6A74FAFBF</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="06:00-07:00" id="C691090B-A7F0-8287-8559-3C0B0ED38A2F">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>CD415B36-F225-A9BA-209E-29E46EFD888B</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="07:00-08:00" id="D72BF143-8C5F-FCD5-AD46-6E7E7E108160">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>8E48FB0B-489F-7270-73CE-AC42DE1A12B0</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="08:00-09:00" id="DD4EEE16-FF24-6AF4-0E0D-6BAFC44F8CBF">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>C2EB4BA1-0125-F388-7D27-CCF692CC9992</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="09:00-10:00" id="2EDFD500-2F5C-1E19-B862-C76F2F74A299">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>ED2212D2-3D24-377E-01F4-2036A82929B3</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="10:00-11:00" id="26112CEE-8939-DB8D-AD85-CD456567D443">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>F4541658-613D-EBC1-04D0-DC438F3BEFD3</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="11:00-12:00" id="F37527EA-A836-3AA9-C28C-D3B04E236FA9">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>0F076C9F-D8D3-DF55-8F59-DFA166106DB9</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="12:00-13:00" id="02967220-53F4-8285-AB30-9E56986FC186">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>0C1ADEF9-0580-BFF3-F7EF-B66A188E2486</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="13:00-14:00" id="708CC588-5474-F197-4865-BC966257D600">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>BC46A3A9-7944-A79B-6FDF-8890EEAC50BB</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="14:00-15:00" id="87D0400D-E944-90E4-F8FD-9503082A8FAA">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>0F6B37FC-ED7A-BFA1-62C4-0B700BAC4CDF</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="15:00-16:00" id="B85211E4-14F4-5425-514C-607CD1517889">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>01CEE086-3FCE-943D-7193-03B70AA0B2BD</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="16:00-17:00" id="9A630DAB-D16E-1694-088D-7660F24BA75C">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>F3DCA185-A5FA-A9F5-78C5-F06D0D7288A4</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="17:00-18:00" id="3DEC5D3D-A586-4A4F-FF18-E45174AA2F33">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>2A46B090-FE49-E768-CA5A-7B20F3387862</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="18:00-19:00" id="B7865151-B960-B1FA-FEF1-F4A99E88BD64">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>B268430A-5195-D8D0-F049-C4C86F29D852</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="19:00-20:00" id="C8502D3C-052B-3F9D-0066-BEA4DBD542E0">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>23950A4F-F15A-16C8-D2A9-AE7F5E3AB90C</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="20:00-21:00" id="16ABC663-0826-358A-F2C4-296C25557257">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>D0FA86CA-4CDD-33D2-C124-4772D31B4C85</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="22:00-21:00" id="B0F57214-4C4D-C549-465A-4A99047FA6BE">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>5CAF0D17-BD3D-AD30-9D59-FDDDC508ABEC</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="22:00-23:00" id="1EE9059E-8491-846A-A00C-4C13DFBCF091">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>A3BCC904-936B-398E-DF60-33DB3438A1F8</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="23:00-00:00" id="F1BADEF9-4132-9BC5-9CF5-3507C6C29537">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>858BAAD2-3D58-943E-72DE-7A4B46918FD5</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BBM_Horario_ID_Horario" id="ACA08AC0-05BC-DDB1-C2F4-382B1EEC562D">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>56A02998-76C6-0C17-F951-D486348542E3</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7016B2E-9E07-5F86-4C6E-05E02410EEAD" referredColumn="7A661004-554F-5A43-FA16-AAAD996A6516"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7FD4852-608D-8B31-DB78-BD1E2ED645E0" name="BBM_Horario_Fabricado_PK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>D4BF58A2-4C53-5B72-8C1A-DA45812979E0</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="ECB4C788-F9F5-D2F3-CFFE-0058509E9048" name="BBM_Horario_Fabricado_BBM_Horario_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>48B81D5F-C499-8DD1-2E5F-3A236920AC22</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACA08AC0-05BC-DDB1-C2F4-382B1EEC562D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

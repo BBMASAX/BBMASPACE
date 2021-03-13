@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contacto_Paciente" directorySegmentName="seg_0" id="99203A96-2888-472D-A280-C5C03FD8DC77">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:09:16 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D53EA839-4CAC-7E4C-755F-7BA54459BA86</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>96C8D767-F51E-A07A-A226-8A4D5E95AC13</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Contacto" id="8B6769D1-4E54-CBD2-EC1D-2EF351059005">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:09:26 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+</attribute>
+<attribute name="Email" id="020262F1-56B5-B2DB-1999-D3F0E99ABA96">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:10:09 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Direccion" id="DF1028C7-F591-6A22-70D2-C3BB1017CE1A">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:11:13 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Otros Detalles" id="58AFC3E2-23DC-C6FE-9BCA-A862539F37D7">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:11:32 UTC</createdTime>
+<comment><![CDATA[Por si hay que hacer algún comentario sobre los detalles]]></comment>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

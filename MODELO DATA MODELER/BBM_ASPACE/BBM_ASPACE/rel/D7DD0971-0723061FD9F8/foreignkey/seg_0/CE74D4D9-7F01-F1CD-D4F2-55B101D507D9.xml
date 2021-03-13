@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE74D4D9-7F01-F1CD-D4F2-55B101D507D9" containerWithKeyObject="9F5631E6-A70D-667A-CAC6-A2B244C76A32" localFKIndex="C111A3E5-9DA9-667F-BD1A-C446DD5B334F" name="BBM_Asistente_Social_BBM_Especialista_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>E615996C-09D0-5674-72BA-BCE9E65BAFA2</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<referredTableLongName>BBM_Especialista</referredTableLongName>
+<arc>9E44E94A-DDAB-739F-FDCF-001C7B6E3006</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9C4DF8B3-D0FE-79CB-975E-20524E721EC4</referredTableID>
+<keyObject>F295F41E-4321-59D2-93A0-2610FD921AF8</keyObject>
+<referredKeyID>F295F41E-4321-59D2-93A0-2610FD921AF8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BBM_Empleado_BBM_Empleado_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

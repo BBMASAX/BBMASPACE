@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0420C88-3BFC-7A09-0714-D10AFF2FCB6F" name="BBM_Estimulacion_Electrica">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>6532716C-DFDA-5416-3EA2-623CC5DBB86F</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BBM_Otras_Terapias_BBM_Tratamientos_BBM_Tratamientos_ID" id="B0CD6072-9046-E4E3-BAD2-0C7599C7F4A7">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BF5ABDE-E3A3-E206-58B8-E0E94013F7EE" referredColumn="F08419E0-4A74-9CA6-F67E-60AFF1DE2305"/>
+</associations>
+</Column>
+<Column name="Descripcion" id="35C2A871-621A-B091-76F7-0F7580BA8715">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>C15DC954-A007-50B4-066C-2665C2C27C83</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7022B3B-8C58-B1AA-DA2A-29F38E0D159B" name="BBM_Estimulacion_Electrica_PK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B0CD6072-9046-E4E3-BAD2-0C7599C7F4A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A993F09-04DC-64E7-311F-BA046DC33124" name="BBM_Estimulacion_Electrica_BBM_Otras_Terapias_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>34A118D3-F096-186A-3A43-CBE578AC4563</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0CD6072-9046-E4E3-BAD2-0C7599C7F4A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

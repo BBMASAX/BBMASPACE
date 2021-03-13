@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E67758F4-9F29-B19A-FA9A-52207E98F5E9" name="BBM_Expediente">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>B336D82F-BF20-1C01-009D-0DD26182E801</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Expediente" id="686CB36B-2213-4764-8838-9963513B415D">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Compuesto por EXP + Apellido + Apellido + Nombre Usuario + Numeracion
+Ejemplo: EXPBBM0001]]></commentInRDBMS>
+<generatorID>5D616A26-716C-DAF4-C1D8-1F608A0E07CB</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BBM_Enfermedad_Diagnosticada_Nombre_Enfermedad" id="0551159A-7672-CD7D-4A4B-BB3A52A81CD1">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>009A31F1-3D43-7C27-2A1C-D5571BAC22FA</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD3D8837-A6C4-5E90-E50B-E5FD54BA9BDE" referredColumn="21EA2249-39DA-1D99-C652-87A7EDF66E38"/>
+</associations>
+</Column>
+<Column name="BBM_Usuario_Usuario_ID" id="FF1AB0BB-72F4-5ED1-3BEB-71E37E5F5587">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>F374D2D8-65A3-B4B5-E2D7-504FB5F411BF</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41619DB3-B027-EE6C-C7BF-4E7E98E28F1F" referredColumn="4EAA600C-00AB-82B1-5145-1271AA6ECCCD"/>
+</associations>
+</Column>
+<Column name="BBM_Sesion_Sesion_ID" id="96DF3BC8-2E77-BA78-4F11-641A2A1FC11F">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>ECC1006C-ECE4-CAED-1A0A-A58CB9248DFB</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51EE7B4F-FD43-4FE6-092C-FED2E295C6BF" referredColumn="47EA5157-3A12-7D48-F64C-71E93BA23C6F"/>
+</associations>
+</Column>
+<Column name="BBM_Tratamientos_BBM_Tratamientos_ID" id="C88302D4-545E-1A39-3BB5-9772D5EE67F5">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E58A567-79E3-220F-F6A0-510A1C67732D" referredColumn="D5E65E65-B5AE-E822-D54D-0F567C6B88E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53DAF247-9D07-F06C-AFFB-9013F52BFE2B" name="BBM_Expediente_PK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:40 UTC</createdTime>
+<generatorID>BDBA70A2-4268-14B6-3559-76A8A93BA604</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="686CB36B-2213-4764-8838-9963513B415D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16C97D9E-68D3-1DD6-A740-818DAF9C39F8" name="BBM_Expediente_BBM_Enfermedad_Diagnosticada_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>9FA55E8D-2721-E081-BD38-FE26EED720A3</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0551159A-7672-CD7D-4A4B-BB3A52A81CD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="454F5208-A798-F21C-9123-B76BC923B762" name="BBM_Expediente_BBM_Usuario_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>A6ABD2AC-005A-E643-4CA4-C7CAF09ED02C</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF1AB0BB-72F4-5ED1-3BEB-71E37E5F5587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="883008C9-723E-E08F-0CFF-7A0C9F18D87C" name="BBM_Expediente_BBM_Sesion_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>B3ED5295-30B0-96D3-586F-8E3F6200B17D</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96DF3BC8-2E77-BA78-4F11-641A2A1FC11F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F46AB37-FAAC-A471-86DA-9495CF734413" name="BBM_Expediente_BBM_Tratamientos_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>D0DCA4CF-939D-62E6-8451-F7D5D7EF7B0F</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C88302D4-545E-1A39-3BB5-9772D5EE67F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

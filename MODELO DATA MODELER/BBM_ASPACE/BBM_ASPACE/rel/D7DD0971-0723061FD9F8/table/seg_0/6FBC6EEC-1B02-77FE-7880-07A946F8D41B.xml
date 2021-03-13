@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FBC6EEC-1B02-77FE-7880-07A946F8D41B" name="BBM_Otras_Terapias">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>5938A653-A91A-9CCE-CA40-61E3672415E0</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BBM_Tratamientos_BBM_Tratamientos_ID" id="F08419E0-4A74-9CA6-F67E-60AFF1DE2305">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D314861D-8479-C688-6674-7328917873DB" referredColumn="D5E65E65-B5AE-E822-D54D-0F567C6B88E2"/>
+</associations>
+</Column>
+<Column name="OTT_ID" id="ABED22E2-7940-566B-E1C8-CDF2FE396DC5">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>F5BD5D51-1085-6887-AEDA-4C0EFD1CC96C</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BBM_Tratamientos_BBM_Tratamientos_ID2" id="FB32E1D9-18EB-77C2-354E-41AE43E5EA05">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F3EB7EF-D6EE-8BBB-A42D-744ECBD2358B" referredColumn="D5E65E65-B5AE-E822-D54D-0F567C6B88E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0F26AD6-FA47-B9B1-E112-0B7151A558B6" name="BBM_Otras_Terapias_PK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F08419E0-4A74-9CA6-F67E-60AFF1DE2305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E3B274E-5FEF-4EE9-585A-2D830BC486FA" name="BBM_Otras_Terapias_BBM_Tratamientos_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>6303E767-6117-19D5-D9C6-43FCAC8C62CD</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F08419E0-4A74-9CA6-F67E-60AFF1DE2305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F244B4F9-E191-4FE7-6B19-AE2168A231AA" name="BBM_Otras_Terapias_BBM_Tratamientos_FKv2">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>8B705B25-D87D-E073-26C3-AE8D20700F44</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB32E1D9-18EB-77C2-354E-41AE43E5EA05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

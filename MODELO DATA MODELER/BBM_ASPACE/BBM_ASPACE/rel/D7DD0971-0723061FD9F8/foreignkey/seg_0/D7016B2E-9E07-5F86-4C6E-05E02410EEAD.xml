@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7016B2E-9E07-5F86-4C6E-05E02410EEAD" containerWithKeyObject="2F650159-09D7-09E4-9597-EFAF35FBAA22" localFKIndex="ECB4C788-F9F5-D2F3-CFFE-0058509E9048" name="BBM_Horario_Fabricado_BBM_Horario_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>48B81D5F-C499-8DD1-2E5F-3A236920AC22</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<referredTableLongName>BBM_Horario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4006C8CA-EAF1-5B71-8A50-17CA41E932A2</referredTableID>
+<keyObject>EBC55695-F32F-66E4-96B2-D7227631F555</keyObject>
+<referredKeyID>EBC55695-F32F-66E4-96B2-D7227631F555</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Horario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

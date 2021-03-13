@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="291019AB-4B9D-4D4F-0B10-F83A9A6EB157" containerWithKeyObject="C1227842-1E90-65E8-F789-2492F6331885" localFKIndex="3A8E722E-187C-D73F-DCC2-ED06C590E81C" name="BBM_Terapia_Logopeda_BBM_Tratamientos_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>D378AAC4-7DA7-F293-D852-16FA9B5A5137</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<referredTableLongName>BBM_Tratamientos</referredTableLongName>
+<arc>E3616C3A-7671-FDD4-C34D-51D6AF7BF8BA</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6DA4DE40-066C-F89D-D02C-827140F85C02</referredTableID>
+<keyObject>87260B7E-D294-3906-CCEC-8C61ECF9BA53</keyObject>
+<referredKeyID>87260B7E-D294-3906-CCEC-8C61ECF9BA53</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BBM_Tratamientos_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

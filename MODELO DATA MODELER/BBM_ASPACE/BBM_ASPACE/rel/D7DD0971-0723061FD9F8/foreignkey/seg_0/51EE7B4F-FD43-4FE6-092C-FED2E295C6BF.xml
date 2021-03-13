@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="51EE7B4F-FD43-4FE6-092C-FED2E295C6BF" containerWithKeyObject="E67758F4-9F29-B19A-FA9A-52207E98F5E9" localFKIndex="883008C9-723E-E08F-0CFF-7A0C9F18D87C" name="BBM_Expediente_BBM_Sesion_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>B3ED5295-30B0-96D3-586F-8E3F6200B17D</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<referredTableLongName>BBM_Sesion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>908266B3-583C-C6E0-672B-20FE52EB2328</referredTableID>
+<keyObject>9C888372-A332-D816-7633-87D6A2928017</keyObject>
+<referredKeyID>9C888372-A332-D816-7633-87D6A2928017</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Sesion_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

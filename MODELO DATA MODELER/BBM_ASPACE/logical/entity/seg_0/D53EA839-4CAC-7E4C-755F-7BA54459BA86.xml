@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D53EA839-4CAC-7E4C-755F-7BA54459BA86" name="BBM Tutor">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 16:58:18 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Tutor ID" id="ADDA0373-C832-E79D-5949-E2F8CE5D3F9D">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 16:58:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo compuesto por TUT + ID del Usuario (Apellido + Apellido + Nombre + Numero)
+ejemplo -> TUTBBM0001]]></commentInRDBMS>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre 1" id="E5623ECA-10E9-A06D-B45C-74BB052136E2">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:00:18 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre 2" id="EE95DF1F-C25F-FF9F-6283-D4AB34276297">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:00:36 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido 1" id="9CED2FB3-8F73-D7F6-59B5-2CA3FD137B16">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:00:38 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido 2" id="B753BB25-3C3C-6BF4-1890-D644EC58D4D5">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:00:38 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="0E2484BB-B613-FEC2-0580-27F114CDD642">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:13:15 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Otros Detalles" id="EA04D482-88C2-9A22-84F6-51CC9A635A20">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:08:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Para decir cosas que pueden ir adicionales]]></commentInRDBMS>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BADF9B6-1767-FE83-835B-9E65B957ED39" name="BBM_Tutor_PK">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 16:58:34 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="A36D94B8-B328-20D5-28C3-3ABC92F9C44D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ADDA0373-C832-E79D-5949-E2F8CE5D3F9D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

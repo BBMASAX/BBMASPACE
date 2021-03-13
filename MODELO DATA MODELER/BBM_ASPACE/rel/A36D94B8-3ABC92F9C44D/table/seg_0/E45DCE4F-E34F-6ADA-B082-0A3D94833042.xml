@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E45DCE4F-E34F-6ADA-B082-0A3D94833042" name="BBM_Tutor">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<generatorID>D53EA839-4CAC-7E4C-755F-7BA54459BA86</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tutor_ID" id="1D1A9B01-E3DC-8315-E8EC-FF5A3BA8F67A">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo compuesto por TUT + ID del Usuario (Apellido + Apellido + Nombre + Numero)
+ejemplo -> TUTBBM0001]]></commentInRDBMS>
+<generatorID>ADDA0373-C832-E79D-5949-E2F8CE5D3F9D</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_1" id="289889C4-D918-E8CD-0352-A8FDC03C2809">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<generatorID>E5623ECA-10E9-A06D-B45C-74BB052136E2</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_2" id="AEEC7E33-31AD-FD2D-63D1-DF98C2D1CEDA">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<generatorID>EE95DF1F-C25F-FF9F-6283-D4AB34276297</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_1" id="E4E28F25-576C-DC13-93EC-2C2230DDA691">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<generatorID>9CED2FB3-8F73-D7F6-59B5-2CA3FD137B16</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_2" id="FC35542E-C671-B478-CA2E-8CEA514E8651">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<generatorID>B753BB25-3C3C-6BF4-1890-D644EC58D4D5</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Otros_Detalles1" id="8E372ABB-E463-EC72-0F46-60E1ECAAF34D">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Para decir cosas que pueden ir adicionales]]></commentInRDBMS>
+<generatorID>EA04D482-88C2-9A22-84F6-51CC9A635A20</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DED2194C-1334-8640-F5E1-CCAEBF5442D3" name="BBM_Tutor_PK">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<generatorID>2BADF9B6-1767-FE83-835B-9E65B957ED39</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D1A9B01-E3DC-8315-E8EC-FF5A3BA8F67A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

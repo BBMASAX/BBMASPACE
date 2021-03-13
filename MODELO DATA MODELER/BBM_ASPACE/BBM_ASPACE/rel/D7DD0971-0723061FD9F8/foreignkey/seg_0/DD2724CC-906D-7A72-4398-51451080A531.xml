@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD2724CC-906D-7A72-4398-51451080A531" containerWithKeyObject="712913B8-A1DC-016D-CE2F-F1681F358C17" localFKIndex="336B841D-6177-3F1A-8514-68D59D152A37" name="BBM_Comida_Paciente_BBM_Comidas_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 18:23:41 UTC</createdTime>
+<generatorID>919B675A-B1E6-E8FC-2BD9-36E43EB9FD2C</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<referredTableLongName>BBM_Comidas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2A7D96BA-0730-7693-E1C3-CECFDEE3C6D6</referredTableID>
+<keyObject>3A1F1C29-BA31-D4B1-64BF-AC5459AF8E33</keyObject>
+<referredKeyID>3A1F1C29-BA31-D4B1-64BF-AC5459AF8E33</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Menu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

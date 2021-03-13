@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="DE05D034-637A-C191-4628-83F62A525C2B" name="BBM_Expediente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DD90A2C0-6249-54F4-B1F7-4FC8347EB042" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="5994FC0C-FE30-924B-D973-A936F01CEF12" name="BBM Factura" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DD90A2C0-6249-54F4-B1F7-4FC8347EB042" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D53EA839-4CAC-7E4C-755F-7BA54459BA86" name="BBM Tutor" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DD90A2C0-6249-54F4-B1F7-4FC8347EB042" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="96C8D767-F51E-A07A-A226-8A4D5E95AC13" name="BBM Usuario" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DD90A2C0-6249-54F4-B1F7-4FC8347EB042" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="7500F400-2BB7-3A1B-7736-548EE16455EB" name="Hospital" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DD90A2C0-6249-54F4-B1F7-4FC8347EB042" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="99203A96-2888-472D-A280-C5C03FD8DC77" name="Contacto_Paciente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="DD90A2C0-6249-54F4-B1F7-4FC8347EB042" propertySourceId="D53EA839-4CAC-7E4C-755F-7BA54459BA86" propertyTargetId="96C8D767-F51E-A07A-A226-8A4D5E95AC13"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

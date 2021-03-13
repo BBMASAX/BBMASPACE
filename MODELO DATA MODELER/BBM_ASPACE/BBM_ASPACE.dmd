@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BBM_ASPACE" id="1704B831-56D6-73F6-46A6-B2387B734E1B" version="3.5">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 16:53:24 UTC</createdTime>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1704B831-56D6-73F6-46A6-B2387B734E1B</designId>
+</OSDM_Design>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="392B8641-FE52-9B53-3A89-B5AC282705EA" containerWithKeyObject="4D66DAFF-7F99-6BC4-6886-010AC64A104B" localFKIndex="D3EC0B16-9680-1A9E-5AA1-111729BA0240" name="Contacto_Paciente_BBM_Tutor_FK">
+<createdBy>BBM</createdBy>
+<createdTime>2020-11-17 17:12:30 UTC</createdTime>
+<generatorID>99203A96-2888-472D-A280-C5C03FD8DC77</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<referredTableLongName>BBM_Tutor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E45DCE4F-E34F-6ADA-B082-0A3D94833042</referredTableID>
+<keyObject>DED2194C-1334-8640-F5E1-CCAEBF5442D3</keyObject>
+<referredKeyID>DED2194C-1334-8640-F5E1-CCAEBF5442D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Tutor_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

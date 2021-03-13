@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BBM_Otras_Terapias_BBM_Tratamientos_FK" directorySegmentName="seg_1" id="8B705B25-D87D-E073-26C3-AE8D20700F44">
+<createdBy>BBM</createdBy>
+<createdTime>2021-01-23 11:11:47 UTC</createdTime>
+<generatorID>A6A6DA9B-1672-59A5-9487-A583970804E7</generatorID>
+<ownerDesignName>BBM_ASPACE</ownerDesignName>
+<engineerTo>
+<item key="EECE33E7-0BD6-8642-6FDD-831AE5D20CBF" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F6ECAA99-53FF-D3BA-0CDB-D3630C2511E5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5938A653-A91A-9CCE-CA40-61E3672415E0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
