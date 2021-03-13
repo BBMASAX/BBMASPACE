@@ -1,0 +1,71 @@
+Vamos a crear un usuaro con sus roles, espacio de tabla y conexión
+
+0.- comprobar que están los servicios OacleServiceXe y OracleOraDB18Home1TNSListener estén iniciados.
+
+1.- Tener instalado Oracle 18c Express Edition.
+2.- cmd (Ejecutar como administrados)
+3.- sqlplus
+4.- sys /as sysdba
+5.- Ver bases de daros en la que nos podemos conectar.
+SELECT name, con_id FROM v$pdbs;
+
+6.- Cambiaremos a la sesión de nuestra base de datos predeterminada: (PASO IMPORTANTE)
+ALTER SESSION SET container = XEPDB1;
+
+7.- Ver si nuestra base de daos predeterminada está en estado ABIERTA:
+SELECT name, open_mode FROM v$pdbs;
+
+8.- Abrir base de datos (en caso de que no aparezca abierta:
+ALTER PLUGGABLE DATABASE open;
+
+9.- Creamos el espacio de tabla (TABLESPACE) de nomre: SAMPLETAB
+
+CREATE SMALLFILE TABLESPACE SAMPLETAB DATAFILE 'C:\app\BBM\product\18.0.0\oradata\XE\XEPDB1\SAMPLETAB.DBF' SIZE 200M LOGGING EXTENT MANAGEMENT LOCAL SEGMENT SPACE MANAGEMENT AUTO;
+
+10.- Creamos nuestro usuario de nombre: BBM, perfil por defecto: DEFAULT, le ponemos de contraseña:
+oracle, asignamos tablespace por defecto: SAMPLETAB, tablespace temporal: TEMP,
+desbloqueamos el usuario y le damos una quota ilimitada a nuestro tablespace.
+
+CREATE USER BBM PROFILE DEFAULT IDENTIFIED BY oracle DEFAULT TABLESPACE SAMPLETAB TEMPORARY TABLESPACE TEMP ACCOUNT UNLOCK quota unlimited on SAMPLETAB;
+
+(AQUÍ ES DONDE PODEMOS CREAR NUESTRA BASE DE DATOS)
+
+11.- Concedemos los roles de CONNECT y RESOURCE a nuestro usuario
+
+GRANT CONNECT TO BBM; --> CONECTAR
+
+GRANT RESOURCE TO BBM; -> RECURSOS
+
+GRANT INSERT ANY TABLE TO BBM;
+
+
+12.- Nos aseguramos de estar en nuestro esquema:
+ALTER SESSION SET CURRENT_SCHEMA = BBM;
+
+
+13.- Nos conectamos con nuestro usuario:
+conn BBM/oracle@//localhost:1521/xepdb1
+
+show user;
+
+--> EN ESTE PUNTO CREO CONEXIÓN
+
+14.- Ver las tablas del esquema BBM:
+select table_name from user_tables;
+
+
+15.- Ver usuario de conexión actual:
+SHOW USER;
+
+Nota: Creamos una Conexion para el Usuario en SQL Developer
+
+Usuario BBM
+Contraseña oracle
+Host Name localhost
+Port 1521
+Service Name XEPDB1
+
+16.- AHORA NOS CONECTAREMOS CON con SQL Developer o PL/SQL Developer
+
+
+

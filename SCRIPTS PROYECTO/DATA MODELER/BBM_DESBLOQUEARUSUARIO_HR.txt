@@ -1,0 +1,223 @@
+https://oraxedatabase.blogspot.com/2019/09/como-desbloquear-una-cuenta-de-usuario.html
+https://www.pablovallejos.com/2018/12/desbloqueo-del-esquema-hr-o-de-recursos.html
+SYS AS SYSDBA
+
+SHOW USER;
+
+alter session set container=XEPDB1;
+
+alter user HR
+identified by HR
+account unlock;
+
+conn HR/HR@localhost:1521/XEPDB1
+
+SHOW USER;
+
+O bien,
+
+conn sys/suclave@localhost:1521/XEPDB1 AS SYSDBA
+
+SELECT name, con_id FROM v$pdbs;
+
+
+conexión shell
+cmd
+sqlplus
+sys /as sysdba --> Impersono
+
+
+
+Oracle tiene una base de datos sistema --> container; La base de datos que genera para los ususarios (pluggable) es XPEDB!
+alter session set container=XEPDB1;
+
+column username format a25 --> es pàra maquetear las columnas y que salgan bien
+
+select username, account_status from dba_users; --> nos expide usuarios y vemos HR bloqueado
+
+alter user HR identified by HR account block; --> desbloqueamos HR
+
+column username format a25; --> Volvemos a repetir sentencias ahora con HR desbloqueado
+
+select username, account_status from dba_users;
+
+
+
+FEITO
+
+
+Microsoft Windows [Version 10.0.10240]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>sqlplus
+
+SQL*Plus: Release 18.0.0.0.0 - Production on Tue Nov 10 21:16:54 2020
+Version 18.4.0.0.0
+
+Copyright (c) 1982, 2018, Oracle.  All rights reserved.
+
+Enter user-name: BBM
+Enter password:
+ERROR:
+ORA-01017: invalid username/password; logon denied
+
+
+Enter user-name: SYS /AS SYSDBA
+Enter password:
+
+Connected to:
+Oracle Database 18c Express Edition Release 18.0.0.0.0 - Production
+Version 18.4.0.0.0
+
+SQL> show users
+SP2-0158: unknown SHOW option "users"
+SQL> show user;
+USER is "SYS"
+SQL> alter session set container=XEPDB1;
+
+Session altered.
+
+SQL> column username format a25;
+SQL> select username, account_status from dba_users;
+
+USERNAME                  ACCOUNT_STATUS
+------------------------- --------------------------------
+SYS                       OPEN
+SYSTEM                    OPEN
+XS$NULL                   EXPIRED & LOCKED
+LBACSYS                   LOCKED
+OUTLN                     EXPIRED & LOCKED
+DBSNMP                    EXPIRED & LOCKED
+APPQOSSYS                 EXPIRED & LOCKED
+DBSFWUSER                 EXPIRED & LOCKED
+GGSYS                     EXPIRED & LOCKED
+ANONYMOUS                 EXPIRED & LOCKED
+HR                        EXPIRED & LOCKED
+
+USERNAME                  ACCOUNT_STATUS
+------------------------- --------------------------------
+CTXSYS                    EXPIRED & LOCKED
+DVSYS                     LOCKED
+SI_INFORMTN_SCHEMA        EXPIRED & LOCKED
+DVF                       LOCKED
+GSMADMIN_INTERNAL         EXPIRED & LOCKED
+ORDPLUGINS                EXPIRED & LOCKED
+MDSYS                     EXPIRED & LOCKED
+OLAPSYS                   EXPIRED & LOCKED
+ORDDATA                   EXPIRED & LOCKED
+XDB                       EXPIRED & LOCKED
+WMSYS                     EXPIRED & LOCKED
+
+USERNAME                  ACCOUNT_STATUS
+------------------------- --------------------------------
+ORDSYS                    EXPIRED & LOCKED
+GSMCATUSER                EXPIRED & LOCKED
+MDDATA                    EXPIRED & LOCKED
+SYSBACKUP                 EXPIRED & LOCKED
+REMOTE_SCHEDULER_AGENT    EXPIRED & LOCKED
+PDBADMIN                  OPEN
+GSMUSER                   EXPIRED & LOCKED
+SYSRAC                    EXPIRED & LOCKED
+OJVMSYS                   LOCKED
+AUDSYS                    LOCKED
+DIP                       EXPIRED & LOCKED
+
+USERNAME                  ACCOUNT_STATUS
+------------------------- --------------------------------
+SYSKM                     EXPIRED & LOCKED
+ORACLE_OCM                EXPIRED & LOCKED
+SYS$UMF                   EXPIRED & LOCKED
+SYSDG                     EXPIRED & LOCKED
+
+37 rows selected.
+
+SQL> alter user HR identified by HR account unlock;
+
+User altered.
+
+SQL> column username format a25;
+SQL> select username, account_status from dba_users;
+
+USERNAME                  ACCOUNT_STATUS
+------------------------- --------------------------------
+SYS                       OPEN
+SYSTEM                    OPEN
+XS$NULL                   EXPIRED & LOCKED
+LBACSYS                   LOCKED
+OUTLN                     EXPIRED & LOCKED
+DBSNMP                    EXPIRED & LOCKED
+APPQOSSYS                 EXPIRED & LOCKED
+DBSFWUSER                 EXPIRED & LOCKED
+GGSYS                     EXPIRED & LOCKED
+ANONYMOUS                 EXPIRED & LOCKED
+HR                        OPEN
+
+USERNAME                  ACCOUNT_STATUS
+------------------------- --------------------------------
+CTXSYS                    EXPIRED & LOCKED
+DVSYS                     LOCKED
+SI_INFORMTN_SCHEMA        EXPIRED & LOCKED
+DVF                       LOCKED
+GSMADMIN_INTERNAL         EXPIRED & LOCKED
+ORDPLUGINS                EXPIRED & LOCKED
+MDSYS                     EXPIRED & LOCKED
+OLAPSYS                   EXPIRED & LOCKED
+ORDDATA                   EXPIRED & LOCKED
+XDB                       EXPIRED & LOCKED
+WMSYS                     EXPIRED & LOCKED
+
+USERNAME                  ACCOUNT_STATUS
+------------------------- --------------------------------
+ORDSYS                    EXPIRED & LOCKED
+GSMCATUSER                EXPIRED & LOCKED
+MDDATA                    EXPIRED & LOCKED
+SYSBACKUP                 EXPIRED & LOCKED
+REMOTE_SCHEDULER_AGENT    EXPIRED & LOCKED
+PDBADMIN                  OPEN
+GSMUSER                   EXPIRED & LOCKED
+SYSRAC                    EXPIRED & LOCKED
+OJVMSYS                   LOCKED
+AUDSYS                    LOCKED
+DIP                       EXPIRED & LOCKED
+
+USERNAME                  ACCOUNT_STATUS
+------------------------- --------------------------------
+SYSKM                     EXPIRED & LOCKED
+ORACLE_OCM                EXPIRED & LOCKED
+SYS$UMF                   EXPIRED & LOCKED
+SYSDG                     EXPIRED & LOCKED
+
+37 rows selected.
+
+SQL>
+
+
+CONEXIÓN EN CMD PROBADA
+
+SQL> exit
+Disconnected from Oracle Database 18c Express Edition Release 18.0.0.0.0 - Production
+Version 18.4.0.0.0
+
+C:\Windows\system32>sqlplus
+
+SQL*Plus: Release 18.0.0.0.0 - Production on Tue Nov 10 21:24:27 2020
+Version 18.4.0.0.0
+
+Copyright (c) 1982, 2018, Oracle.  All rights reserved.
+
+Enter user-name: HR /AS SYSDBA
+Enter password: HR
+
+Connected to:
+Oracle Database 18c Express Edition Release 18.0.0.0.0 - Production
+Version 18.4.0.0.0
+
+SQL>
+
+
+
+
+
+
+
+
