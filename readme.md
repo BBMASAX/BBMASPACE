@@ -143,4 +143,5 @@ LINUX
 ## Enlaces
 
 [Repositorio Github](https://github.com/BBMASAX/BBMASPACE.git)
-[Crear personas irreales] (https://generated.photos/)
+
+[Crear personas irreales](https://generated.photos/)
