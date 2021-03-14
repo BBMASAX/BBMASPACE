@@ -13,11 +13,12 @@ Proyecto correspondiente a la asigantura **ASAX** del instituto **I.E.S. Fernand
 Consta de **tres** partes:
 
 #### PREPARACIÓN PARA EL TRABAJO    ![Users](https://user-images.githubusercontent.com/73242009/111062555-ddc5cf80-84a9-11eb-8eeb-5e64075dfb05.png)
+~~~
 WINDOWS
 		Creación de Maquinas Virtuales e instalación de Sistemas Operativos 
 			Creación de Máquina Virtual con Windows 10 [cliente]
 				Instalación de SQL Server 2017 en Windows 10 [cliente]
-			Creación de Máquina Virtual con Windows Server 2016 [controlador de dominio] --> Revisar Hipervículo
+			Creación de Máquina Virtual con Windows Server 2016 [controlador de dominio]
 				Creación de Máquina Virtual con Windows Server 2016
 				Instalación de SQL Server 2017 en Windows Server 2016
 		Configurar Firewall de Windows para permitir el acceso a SQL Server 
@@ -38,13 +39,14 @@ WINDOWS
 				Acceder desde SQL Server a otras instancias de otros equipos del dominio
 		Explicar Instalación Desatendida
 	LINUX
-		Creación de MV e instalación de Ubuntu 18.04 --> Revisar Lhipervinculo
+		Creación de MV e instalación de Ubuntu 18.04
 			Configuración del firewall de Ubuntu
 			Configuración de la red de Ubuntu
 			Unir Ubuntu al dominio
 		Instalar SQL Server 2017 / 2019
 		Instalar GUI: Azure Data Studio
 		Instalación y uso de Sqlcmd
+~~~~
 ### MODELADO BASE DE DATOS    ![Database](https://user-images.githubusercontent.com/73242009/111062509-917a8f80-84a9-11eb-8c91-790cfe026099.png)
 	Modelado con SQL Data Modeler 
 		Instalación de Oracle
@@ -52,9 +54,9 @@ WINDOWS
 		Conexiones
 			Desde CMD
 			Desde GUI
-		Desbloquear Usuario HR --> poner hipervinculo a 2.1.9
+		Desbloquear Usuario HR
 		Bases de Datos Ejemplo
-		Modelado Lógico - Relacional - Fisico Proyecto --> Revisar hipervínculo introducción
+		Modelado Lógico - Relacional - Fisico Proyecto
 			Subvistas
 			Modelo Lógico
 			Modelo Relacional
@@ -71,7 +73,7 @@ WINDOWS
 	FILESTREAM / FILETABLE
 	BASES DE DATOS CONTENIDAS 
 	PARTICIONES (SPLIT, MERGE, SWITCH, TRUNCATE) 
-	TABLAS TEMPORALES (VERSI�N SISTEMA) 
+	TABLAS TEMPORALES (VERSION SISTEMA) 
 	TRIGGERS
 	TABLAS IN MEMORY
 	BACKUP DE TODOS LOS CURSORES
