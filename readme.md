@@ -1,4 +1,4 @@
-# PROYECTO ASAX
+# PROYECTO ASAX ![Logo Wirtz](https://user-images.githubusercontent.com/73242009/111063711-8f67ff00-84b0-11eb-8fb2-6cb9023b6bd8.png)
 ###### Manuel Beade Boán (BBM)
 ---
 
@@ -48,6 +48,7 @@ LINUX
 	Instalación y uso de Sqlcmd
 ~~~~
 ### MODELADO BASE DE DATOS    ![Database](https://user-images.githubusercontent.com/73242009/111062509-917a8f80-84a9-11eb-8c91-790cfe026099.png)
+~~~~
 	Modelado con SQL Data Modeler 
 		Instalación de Oracle
 		SQL Developer - Oracle Express
@@ -78,7 +79,9 @@ LINUX
 	TABLAS IN MEMORY
 	BACKUP DE TODOS LOS CURSORES
 	STORED PROCEDURE BACKUP
+~~~~
 ### SISTEMA DE CONTROL DE VERSIONES    ![GIT](https://user-images.githubusercontent.com/73242009/111062657-79efd680-84aa-11eb-8742-84f85ebb90cc.png)
+~~~~
 	GIT como sistema de control de versiones distribuido
 	Sentencias GIT
 		Sentencias GIT REPOSITORY
@@ -97,7 +100,7 @@ LINUX
 				GIT REVERT
 			Git Branch
 	Entorno Gráfico en Windows: GitTortoise
-
+~~~~
 
 ## Enlaces
 
