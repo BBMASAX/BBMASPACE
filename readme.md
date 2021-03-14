@@ -3,7 +3,7 @@
 ---
 
 
-## RESUMEN INTRODUCCIÓN
+## SINOPSIS
 
 Proyecto correspondiente a la asigantura **ASAX** del instituto **I.E.S. Fernando Wirtz** del Ciclo Superior de **Administración de Sistemas Informáticos en Red** (*ASIR*)
 
@@ -27,7 +27,23 @@ Proyecto correspondiente a la asigantura **ASAX** del instituto **I.E.S. Fernand
 * GIT Tortoise
 * VMWare 15.0
 
-
+## ARCHIVOS QUE COMPONEN EL PROYECTO ![Files](https://user-images.githubusercontent.com/73242009/111064750-1bc8f080-84b6-11eb-83d1-e06d0a76d26e.png)
+* Base de datos
+    * Archivos que componen la base de datos (.mdf, .ndf, .ldf)
+    * Archivo de Backup de la base principal .BAK
+* Fotos de personas que no existen para incluir en el apartado **Filestream** y **Filetable**
+* Proyecto de Modelado en *SQL Developer Data Modeler*
+* Scripts
+    * Archivo Sqlcmd
+	* Archivo Desbloquear Usuario HR en SQL*Plus
+	* Demostración de pasar tablas del Usuario HR a SQL Server
+	* Proyecto en Archivo .ddl
+	* Script GIT
+	* Scripts de SQL Server
+	* Sqlcmd en Ubuntu
+* Gitignore
+* Readme
+* Indice del Proyecto
 
 
 ## DESARROLLO DEL PROYECTO    ![Paste](https://user-images.githubusercontent.com/73242009/111062006-9db11d80-84a6-11eb-9ce5-163e69f1d68a.png)
@@ -127,3 +143,4 @@ LINUX
 ## Enlaces
 
 [Repositorio Github](https://github.com/BBMASAX/BBMASPACE.git)
+[Crear personas irreales] (https://generated.photos/)
