@@ -15,37 +15,37 @@ Consta de **tres** partes:
 #### PREPARACIÓN PARA EL TRABAJO    ![Users](https://user-images.githubusercontent.com/73242009/111062555-ddc5cf80-84a9-11eb-8eeb-5e64075dfb05.png)
 ~~~
 WINDOWS
-		Creación de Maquinas Virtuales e instalación de Sistemas Operativos 
-			Creación de Máquina Virtual con Windows 10 [cliente]
-				Instalación de SQL Server 2017 en Windows 10 [cliente]
-			Creación de Máquina Virtual con Windows Server 2016 [controlador de dominio]
-				Creación de Máquina Virtual con Windows Server 2016
-				Instalación de SQL Server 2017 en Windows Server 2016
-		Configurar Firewall de Windows para permitir el acceso a SQL Server 
-			Configuración del Firewall en Windows 10
-				Creación de regla Inbound para permitir el puerto 1433
-				Creación de regla Inbound/Outbound para permitir el puerto 1434
-				Creación de regla Inbound/Outbound para permitir la red
-			Configuración del Firewall en Windows Server 2016
-				Creación de regla Inbound/Outbound para permitir el puerto 1433 y 1434
-				Creación de regla Inbound/Outbound para permitir la red
-		Instalación de SSMS (GUI)
-		Configuración de la red en VMWare
-			Configuración del adaptador de red en Windows Server 2016			
-			Configuración del adaptador de red en Windows 10
-			Configuración del Dominio 
-				Agregar la característica “Servicios de Dominio de Active Directory”
-				Unir la máquina con Windows 10 al Dominio 
-				Acceder desde SQL Server a otras instancias de otros equipos del dominio
-		Explicar Instalación Desatendida
-	LINUX
-		Creación de MV e instalación de Ubuntu 18.04
-			Configuración del firewall de Ubuntu
-			Configuración de la red de Ubuntu
-			Unir Ubuntu al dominio
-		Instalar SQL Server 2017 / 2019
-		Instalar GUI: Azure Data Studio
-		Instalación y uso de Sqlcmd
+	Creación de Maquinas Virtuales e instalación de Sistemas Operativos 
+		Creación de Máquina Virtual con Windows 10 [cliente]
+			Instalación de SQL Server 2017 en Windows 10 [cliente]
+		Creación de Máquina Virtual con Windows Server 2016 [controlador de dominio]
+			Creación de Máquina Virtual con Windows Server 2016
+			Instalación de SQL Server 2017 en Windows Server 2016
+	Configurar Firewall de Windows para permitir el acceso a SQL Server 
+		Configuración del Firewall en Windows 10
+			Creación de regla Inbound para permitir el puerto 1433
+			Creación de regla Inbound/Outbound para permitir el puerto 1434
+			Creación de regla Inbound/Outbound para permitir la red
+		Configuración del Firewall en Windows Server 2016
+			Creación de regla Inbound/Outbound para permitir el puerto 1433 y 1434
+			Creación de regla Inbound/Outbound para permitir la red
+	Instalación de SSMS (GUI)
+	Configuración de la red en VMWare
+		Configuración del adaptador de red en Windows Server 2016			
+		Configuración del adaptador de red en Windows 10
+		Configuración del Dominio 
+			Agregar la característica “Servicios de Dominio de Active Directory”
+			Unir la máquina con Windows 10 al Dominio 
+			Acceder desde SQL Server a otras instancias de otros equipos del dominio
+	Explicar Instalación Desatendida
+LINUX
+	Creación de MV e instalación de Ubuntu 18.04
+		Configuración del firewall de Ubuntu
+		Configuración de la red de Ubuntu
+		Unir Ubuntu al dominio
+	Instalar SQL Server 2017 / 2019
+	Instalar GUI: Azure Data Studio
+	Instalación y uso de Sqlcmd
 ~~~~
 ### MODELADO BASE DE DATOS    ![Database](https://user-images.githubusercontent.com/73242009/111062509-917a8f80-84a9-11eb-8c91-790cfe026099.png)
 	Modelado con SQL Data Modeler 
