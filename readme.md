@@ -149,4 +149,4 @@ LINUX
 
 >La ciencia y la tecnología revolucionan nuestras vidas, pero la memoria, la tradición y el mito cercan nuestra respuesta.
 
-    >Arthur Schlesinger (Historiador)
+    >>Arthur Schlesinger (Historiador)
