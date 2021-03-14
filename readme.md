@@ -147,6 +147,6 @@ LINUX
 [Crear personas irreales](https://generated.photos/)
 
 
->La ciencia y la tecnología revolucionan nuestras vidas, pero la memoria, la tradición y el mito cercan nuestra respuesta.
+>"La ciencia y la tecnología revolucionan nuestras vidas, pero la memoria, la tradición y el mito cercan nuestra respuesta"
 
-    >>Arthur Schlesinger (Historiador)
+>Arthur Schlesinger (Historiador)
