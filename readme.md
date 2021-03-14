@@ -1,4 +1,4 @@
-# PROYECTO ASAX ![Logo Wirtz](https://user-images.githubusercontent.com/73242009/111063711-8f67ff00-84b0-11eb-8fb2-6cb9023b6bd8.png)
+# PROYECTO ASAX ![Logo Wirtz](https://user-images.githubusercontent.com/73242009/111063748-c0e0ca80-84b0-11eb-92a7-b2d49d2faee7.png)
 ###### Manuel Beade Boán (BBM)
 ---
 
