@@ -8,6 +8,28 @@
 Proyecto correspondiente a la asigantura **ASAX** del instituto **I.E.S. Fernando Wirtz** del Ciclo Superior de **Administración de Sistemas Informáticos en Red** (*ASIR*)
 
 
+## HERRAMIENTAS PARA EL PROYECTO ![Herramientas de trabajo](https://user-images.githubusercontent.com/73242009/111064547-e96ac380-84b4-11eb-9662-d269f984244d.png)
+###### Máquinas Virtuales
+* Servidor máster del dominio: Windows Server 16
+* Cliente SQL Server: Windows 10
+* Cliente Linux
+###### Programas
+* SQL Server
+* SQL Server Management Studio
+* Dia
+* SQL Developer
+* SQL  Developer Data Modeler
+* SQL*Plus
+* Sqlcmd
+* Notepad ++
+* Azure Data Studio
+* Git Bash
+* GIT Tortoise
+* VMWare 15.0
+
+
+
+
 ## DESARROLLO DEL PROYECTO    ![Paste](https://user-images.githubusercontent.com/73242009/111062006-9db11d80-84a6-11eb-9ce5-163e69f1d68a.png)
 
 Consta de **tres** partes:
